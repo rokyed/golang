@@ -15,4 +15,10 @@ func main() {
 	p1.ChangeLastName("G-abriel")
 	fmt.Println(p1.SupBoi())
 	fmt.Println(p1.IsBetter)
+	fmt.Println("------------")
+	p1.SayHello(5)
+	fmt.Println("------------")
+	p1.SayHelloWhile(5)
+	fmt.Println("------------")
+	p1.PlayFizzBuzz(30, 29)
 }
