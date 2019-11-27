@@ -14,4 +14,5 @@ func main() {
 	fmt.Println(p1.SupBoi())
 	p1.ChangeLastName("G-abriel")
 	fmt.Println(p1.SupBoi())
+	fmt.Println(p1.IsBetter)
 }
